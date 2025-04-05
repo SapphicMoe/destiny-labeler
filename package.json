@@ -1,18 +1,20 @@
 {
-  "name": "pronouns-bsky",
+  "name": "destiny-labeler",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "npx tsx src/main.ts"
-  },
-  "devDependencies": {
-    "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+    "funnel": "sudo tailscale funnel 4001",
+    "start": "tsx src/main.ts"
   },
   "dependencies": {
     "@skyware/jetstream": "^0.2.1",
     "@skyware/labeler": "^0.2.0",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "tsx": "^4.19.3"
   },
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
 }
