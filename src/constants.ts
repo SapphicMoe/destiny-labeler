@@ -111,6 +111,9 @@ export const BUNGIE_DIDS = [
 	"did:plc:vclhve7nh43xvry6bwzavm7a", // Mara Junot
 	"did:plc:2tcec6ne2w3pbnkbz4nqlssm", // Tom Farnsworth
 	"did:plc:6majhz4fyhpkmbdlwgk2ura4", // Ash
+	"did:plc:4ht55csryis2ro4udp4e7pol", // Mitch Alpiner
+	"did:plc:f5r4fka4t642gks5ngegjfpg", // Br1
+	"did:plc:2ylzk4n4i4co5i6a6mvaaljx", // Eric Connor Richter
 ];
 
 export const API_DEV_DIDS = [
@@ -145,4 +148,5 @@ export const API_DEV_DIDS = [
 	"did:plc:ispcloxaria22hjuztdmkytz", // Buuz135
 	"did:plc:abz72n2pwwqkbyi7sjaa56xk", // Zeta
 	"did:plc:kmotinfdktx4tspshqbr4csg", // Jocafamaka
+	"did:plc:u575h6kcxphmwglycsz2x2yq", // Chiri Vulpes
 ];
