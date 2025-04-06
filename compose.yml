@@ -1,0 +1,16 @@
+services:
+  destiny-labeler:
+    container_name: destiny-labeler
+    build: .
+    ports:
+      - 4001:4001
+    environment:
+      - DID=${DID}
+      - SIGN_KEY=${SIGN_KEY}
+      - PORT=${PORT:-4001}
+      - URL=${URL:-wss://jetstream.atproto.tools/subscribe}
+    volumes:
+      - ./data/cursor.txt:/app/cursor.txt
+      - ./data/labels.db:/app/labels.db
+      - ./data/labels.db-shm:/app/labels.db-shm
+      - ./data/labels.db-wal:/app/labels.db-wal

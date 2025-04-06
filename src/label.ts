@@ -12,7 +12,10 @@ import { LabelerServer } from "@skyware/labeler";
 
 export const server = new LabelerServer({ did: DID, signingKey: SIGN_KEY });
 
-server.start(PORT, (error, address) => {
+server.start({
+	port: PORT,
+	host: "0.0.0.0",
+}, (error, address) => {
 	if (error) console.error(error);
 	else console.log(`Labeler server listening on ${address}`);
 });
