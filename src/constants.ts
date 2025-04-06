@@ -149,4 +149,5 @@ export const API_DEV_DIDS = [
 	"did:plc:abz72n2pwwqkbyi7sjaa56xk", // Zeta
 	"did:plc:kmotinfdktx4tspshqbr4csg", // Jocafamaka
 	"did:plc:u575h6kcxphmwglycsz2x2yq", // Chiri Vulpes
+	"did:plc:ucaezectmpny7l42baeyooxi", // chloe
 ];
