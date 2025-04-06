@@ -5,4 +5,4 @@ A Destiny 2 labeler for Bluesky.
 Special thanks to Juliet for creating [pronouns-bsky](https://github.com/notjuliet/pronouns-bsky)!
 
 ## License
-Licensed under [MIT](LICENSE).
+Licensed under [BSD Zero Clause License](LICENSE).
