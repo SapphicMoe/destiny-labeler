@@ -114,6 +114,8 @@ export const BUNGIE_DIDS = [
 	"did:plc:4ht55csryis2ro4udp4e7pol", // Mitch Alpiner
 	"did:plc:f5r4fka4t642gks5ngegjfpg", // Br1
 	"did:plc:2ylzk4n4i4co5i6a6mvaaljx", // Eric Connor Richter
+	"did:plc:hpqcg6tdbtvokn6f3waqyods", // Lars Bakken
+	"did:plc:h2lomo7bxfkvihajkbyaoadc", // Tom Achronos
 ];
 
 export const API_DEV_DIDS = [
@@ -150,4 +152,7 @@ export const API_DEV_DIDS = [
 	"did:plc:kmotinfdktx4tspshqbr4csg", // Jocafamaka
 	"did:plc:u575h6kcxphmwglycsz2x2yq", // Chiri Vulpes
 	"did:plc:ucaezectmpny7l42baeyooxi", // chloe
+	"did:plc:cnu3fiulvaubfvzvhe6lrkl5", // D2 Lost Sector Report
+	"did:plc:ybtfijbzql7yumsc5bysltxl", // Luca Pattocchio
+	"did:plc:jhzkex664m6iyyytc6f5kanr", // Braytech
 ];
