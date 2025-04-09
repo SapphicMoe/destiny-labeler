@@ -20,6 +20,11 @@ server.start({
 	else console.log(`Labeler server listening on ${address}`);
 });
 
+const SPECIAL_LABELS = {
+	dev: API_DEV_DIDS,
+	bungie: BUNGIE_DIDS,
+} as const;
+
 const getLabels = async (did: string) => {
 	const query = await server.db.execute({
 		sql: "SELECT val, neg FROM labels WHERE uri = ?",
@@ -41,6 +46,15 @@ export const label = async (did: string, rkey: string) => {
 		if (rkey.includes(DELETE)) {
 			await server.createLabels({ uri: did }, { negate: [...labels] });
 			console.log(`${new Date().toISOString()} Deleted labels: ${did}`);
+
+			for (const [label, didList] of Object.entries(SPECIAL_LABELS)) {
+				if (didList.includes(did)) {
+					await server.createLabel({ uri: did, val: label });
+					console.log(
+						`${new Date().toISOString()} Re-applied "${label}" label to ${did} after deletion`,
+					);
+				}
+			}
 		} else if (labels.size < MAXLABELS && POSTS[rkey]) {
 			await server.createLabel({ uri: did, val: POSTS[rkey] });
 			console.log(`${new Date().toISOString()} Labeled ${did}: ${POSTS[rkey]}`);
