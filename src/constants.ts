@@ -175,4 +175,5 @@ export const API_DEV_DIDS = [
 	"did:plc:cnu3fiulvaubfvzvhe6lrkl5", // D2 Lost Sector Report
 	"did:plc:ybtfijbzql7yumsc5bysltxl", // Luca Pattocchio
 	"did:plc:jhzkex664m6iyyytc6f5kanr", // Braytech
+	"did:plc:fgdo6lheqbidggh72spuqrw6", // nwL
 ];
