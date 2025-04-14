@@ -133,9 +133,10 @@ export const BUNGIE_DIDS = [
 	"did:plc:f5r4fka4t642gks5ngegjfpg", // Br1
 	"did:plc:2ylzk4n4i4co5i6a6mvaaljx", // Eric Connor Richter
 	"did:plc:hpqcg6tdbtvokn6f3waqyods", // Lars Bakken
-	"did:plc:h2lomo7bxfkvihajkbyaoadc", // Tom Achronos,
+	"did:plc:h2lomo7bxfkvihajkbyaoadc", // Tom Achronos
 	"did:plc:iysrfspjcrqcxadnhc5h42a4", // EricJohnE
 	"did:plc:wlkzsyg7ud4iufgd6nfr7el4", // David Hostler
+	"did:plc:squ6azba5qlkk47o4g2kszbk", // Jake Lauer
 ];
 
 export const API_DEV_DIDS = [
