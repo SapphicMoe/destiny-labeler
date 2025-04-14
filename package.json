@@ -4,17 +4,18 @@
   "type": "module",
   "scripts": {
     "funnel": "sudo tailscale funnel 4001",
-    "start": "tsx src/main.ts"
+    "build": "tsc",
+    "start": "node dist/main.js"
   },
   "dependencies": {
     "@skyware/jetstream": "^0.2.1",
     "@skyware/labeler": "^0.2.0",
-    "dotenv": "^16.4.7",
-    "tsx": "^4.19.3"
+    "dotenv": "^16.4.7" 
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2", 
+    "tsx": "^4.19.3"        
   }
 }

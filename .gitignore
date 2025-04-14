@@ -4,3 +4,4 @@ cursor.txt
 *.log
 labels.db*
 key.txt
+dist/

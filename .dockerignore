@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+*.log
+cursor.txt
+labels.db*
+key.txt
+Dockerfile
+compose.yml
+.gitignore
+dist
