@@ -8,6 +8,20 @@ export const URL = process.env.URL ?? "wss://jetstream.atproto.tools/subscribe";
 export const MAXLABELS = 10;
 export const DELETE = "3llzmave2yk2k";
 
+const FOUNDRIES = {
+	"3lmsc3gmwzc2i": "black-armory",
+	"3lmsc3gmwzd2i": "cassoid",
+	"3lmsc3gmxyl2i": "crux-lomar",
+	"3lmsc3gmyxt2i": "daito",
+	"3lmsc3gmyxu2i": "hakke",
+	"3lmsc3gmzx42i": "mida",
+	"3lmsc3gn2we2i": "nadir",
+	"3lmsc3gn2wf2i": "omolon",
+	"3lmsc3gn2wg2i": "suros",
+	"3lmsc3gn3vo2i": "tex-mechanica",
+	"3lmsc3gn3vp2i": "veist",
+};
+
 const CLASSES = {
 	"3lm3ybnwzy42m": "hunter-class",
 	"3lm3ybnwzy52m": "titan-class",
@@ -90,6 +104,7 @@ const LOCATIONS = {
 } as const;
 
 export const POSTS: Record<string, string> = {
+	...FOUNDRIES,
 	...CLASSES,
 	...SUBCLASSES,
 	...ACTIVITIES,
@@ -117,6 +132,7 @@ export const BUNGIE_DIDS = [
 	"did:plc:hpqcg6tdbtvokn6f3waqyods", // Lars Bakken
 	"did:plc:h2lomo7bxfkvihajkbyaoadc", // Tom Achronos,
 	"did:plc:iysrfspjcrqcxadnhc5h42a4", // EricJohnE
+	"did:plc:wlkzsyg7ud4iufgd6nfr7el4", // David Hostler
 ];
 
 export const API_DEV_DIDS = [
