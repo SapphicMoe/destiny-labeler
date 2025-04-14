@@ -39,11 +39,13 @@ const SUBCLASSES = {
 
 const ACTIVITIES = {
 	"3lm3y7vwbt52f": "crucible",
+	"3lmsd7usbcs2g": "dungeons",
 	"3lm3y7vwcsf2f": "gambit",
 	"3lm3y7vwcsg2f": "iron-banner",
 	"3lm3y7vwcsh2f": "lost-sectors",
 	"3lm3y7vwcsi2f": "nightfalls",
 	"3lm3y7vwdrq2f": "onslaught",
+	"3lmsd7ujqu22g": "raids",
 	"3lm3y7vwdrr2f": "strikes",
 	"3lm3y7vwdrs2f": "trials",
 } as const;
