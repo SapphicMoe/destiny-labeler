@@ -20,9 +20,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: 22
-        cache: 'pnpm'
 
-    - name: Enable Corepack
+    - name: Enable Corepack on runner (optional but harmless)
       run: corepack enable
 
     - name: Log in to GitHub Container Registry
@@ -45,5 +44,5 @@ jobs:
         push: true
         tags: ${{ steps.meta.outputs.tags }}
         labels: ${{ steps.meta.outputs.labels }}
-        cache-from: type=gha # Enable build cache from previous runs
+        cache-from: type=gha # Docker build layer caching via GHA
         cache-to: type=gha,mode=max
