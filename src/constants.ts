@@ -47,6 +47,7 @@ const ACTIVITIES = {
 	"3lm3y7vwdrq2f": "onslaught",
 	"3lmsd7ujqu22g": "raids",
 	"3lm3y7vwdrr2f": "strikes",
+	"3lmsdprvrgs2p": "team-scorched",
 	"3lm3y7vwdrs2f": "trials",
 } as const;
 
